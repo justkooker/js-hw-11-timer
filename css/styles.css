@@ -1,0 +1,30 @@
+.timer {
+  margin: auto;
+  width: 100%;
+  min-width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.field {
+  width: 25%;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+  margin: 10px;
+}
+.value {
+  font-size: 7em;
+  color: blanchedalmond;
+  background: blueviolet;
+  border-radius: 5%;
+  box-shadow: 5px 4px 6px 1px black ;
+}
+.label {
+    margin-top: 20%;
+    font-size: 2.5em;
+    color: gray;
+}
